@@ -1,0 +1,10 @@
+name: s_to_a
+channels:
+  - defaults
+dependencies:
+  - anndata
+  - python=3.12
+  - python-igraph
+  - scanpy
+  - leidenalg
+prefix: C:\Users\etcha\miniconda3\envs\s_to_a
