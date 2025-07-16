@@ -1,6 +1,6 @@
 # seurat.to.anndata
-<b>Ethan Chang<b/><br>
-<b>Ph.D. Neuroscience @ WashU<b/><br>
+<b>Ethan Chang</b><br>
+<b>Ph.D. Neuroscience @ WashU</b><br>
 <b>Ackerman Lab (rotation), 07/08/2025</b><br>
 
 This code was made to convert Seurat (1) files of scRNA data to Anndata (2) using the Zellkonverter library (3). <br>
