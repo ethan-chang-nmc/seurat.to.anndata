@@ -13,12 +13,12 @@ from scipy.sparse import csr_matrix
 
 def load():
     '''
-    Function to load the file and checks for correct file type (h5ad)
+    Function to load the file and checks for correct file type (h5ad).
 
     Returns
     ----------
     adata: anndata object
-        prints adata contents
+        Prints adata contents.
     '''
     # Load the file
     file_path = filedialog.askopenfilename(
