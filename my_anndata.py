@@ -29,12 +29,12 @@ def load():
     if file_path:
         adata = ad.read_h5ad(file_path)
         print(f"Loaded {adata.shape[0]} cells and {adata.shape[1]} genes.")
+         # Shows user what is in anndata
+        print(adata)
+        return adata
     else:
         print("No file selected.")
-
-    # Shows user what is in anndata
-    print(adata)
-    return adata
+        return None
 
 
 def plot(adata):
